@@ -1,8 +1,6 @@
-<!doctype html>
 <html lang="en-US">
   <head>
     <meta charset="utf-8" />
-    <title>My test page</title>
   </head>
   <body>
     <h1>This is about me.</h1>
