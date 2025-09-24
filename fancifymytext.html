@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fancify Shamcify</title>
+		<label for="Text">Enter a Text:</label>
+		<textarea id="Text" name="Text" row="5" cols="30" placeholder="Type"></textarea>
+	</head>
+	<body>
+		<h1>Fancify my Text</h1>
+		<button onclick="fancifymytext()">Bigger!</button>
+		<button onclick="upperCase()">Moo</button><br>
+		<input type="radio" id="fancyshmancy" name="text_change" value="FancyShmancy" onchange="changeBold(this)">
+		<label for="fancyshmancy">FancyShmancy</label><br>
+		<input type="radio" id="boringbetty" name="text_change" value="BoringBetty" onchange="changeUnbold(this)">
+		<label for="boringbetty">BoringBetty</label>
+		<script src="fancifymytext.js"></script>
+	</body>
+</html>
